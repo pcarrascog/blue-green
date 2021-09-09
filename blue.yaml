@@ -6,7 +6,7 @@ metadata:
     run: my-nginx
     version: 1.21.0
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
   - port: 80
     protocol: TCP
